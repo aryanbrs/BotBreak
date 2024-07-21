@@ -1,3 +1,3 @@
 FINAL-main : some unnecessary thing was getting printed from showCards() function
-FINAL-main-1 : func4() has problem. when there is already maximum card on board and next player don't have card greater than max card on board then sometime it throws its heighest card but it has to throw minimum card.
+FINAL-main-1 : func4() has problem. when there is already maximum card on board and next player don't have card greater than max card on board then sometime it throws its heighest card whereas it has to throw minimum card.
 FINAL-main-2 : current version
