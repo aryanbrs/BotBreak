@@ -1,0 +1,29 @@
+CardInfo[4][13] //contains which card is thrown and which is not, card not thrown: 1, card thrown: 0
+CardArray[4][13] //contain stack of all cards
+CardList //all the cards will be stored in this linked list before distributing
+Players //this LinkedIn contains all four players who will be used for the circular queue
+Won[4] //contain the rounds won by players
+Board[6] //all initialized with -1, board[0] will have first player id, board[5] will have player id having highest
+             //card and board[1], board[2], board[3] & board[4] will have card thrown by respective player
+             //here, the index is the ID of the player
+
+
+func1()--func7()
+
+fillPlayers() //fill players in Players Linked-List
+
+nextPlayer(wonPlayer) //find the next player from the Players linked list
+
+fillCardsInLL() //fill all the cards in the CardList linked-list ie all 52 cards
+
+addNode() //add a new node in the linked list of cards of a given set of given players and fill its value
+
+showCards() //prints all the cards that are thrown/left and players with their cards left
+
+distribute() //distribute cards randomly among all four players from the CardList linked list and fill it to the 2-D LL of all the different players
+
+sortCards() //sort the linked list of cards of all players
+
+initialize() //initialize CardInfo array with 1 and run fillPlayers(); fillCardsInLL(); distribute(); sortCards(); functions for game setup
+
+control() //start the game and control the further flow of the game

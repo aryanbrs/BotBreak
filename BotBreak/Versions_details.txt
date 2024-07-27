@@ -1,0 +1,3 @@
+FINAL-main : some unnecessary thing was getting printed from showCards() function. Now resolved
+FINAL-main-1 : There's an issue with func4(). When there is already a maximum card on the board and the next player doesn't have a card greater than the maximum card on the board, sometimes func4() throws its highest card instead of the minimum card, which is causing problems. Now Resolved
+FINAL-main-2 : current version with all above bug resolved
