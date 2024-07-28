@@ -40,10 +40,3 @@ BotBreak >> ProjectOverview  or  [Click Here](https://github.com/prajjwalsony/Ch
 
 You can download the project from the following link:
 [Download BotBreak](https://github.com/prajjwalsony/BotBreak/archive/refs/heads/main.zip)
-
-
----
-
-## 
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
