@@ -1,4 +1,4 @@
-CardInfo[4][13] //contains which card is thrown and which is not, card not thrown: 1, card thrown: 0
+ardInfo[4][13] //contains which card is thrown and which is not, card not thrown: 1, card thrown: 0
 CardArray[4][13] //contain stack of all cards
 CardList //all the cards will be stored in this linked list before distributing
 Players //this LinkedIn contains all four players who will be used for the circular queue
